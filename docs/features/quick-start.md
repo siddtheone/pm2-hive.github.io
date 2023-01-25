@@ -267,7 +267,7 @@ pm2 reload all         # Will 0s downtime reload (for NETWORKED apps)
 pm2 stop 0             # Stop specific process id
 pm2 restart 0          # Restart specific process id
 
-pm2 delete 0           # Will remove process from pm2 list
+pm2 delete 0           # Will remove process with id 0 from pm2 list
 pm2 delete all         # Will remove all processes from pm2 list
 
 # Misc
